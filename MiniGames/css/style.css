@@ -1,0 +1,230 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: RGB(226,229,216);
+}
+
+.content {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.contents {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+#content-text {
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.options{
+    text-align: center;
+    font-size: 25px;
+}
+
+.options ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.options ul li{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    -webkit-transition: all .25s;
+    -o-transition:  all .25s;
+    transition:  all .25s;
+}
+
+.player_card {
+    height: 95px;
+}
+
+.playerPlace, .computer_card{
+    height: 140px;
+}
+
+.playerPlace {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.computer_card {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.player_card img {
+    display: inline-block;
+    max-width: 95px;
+    max-height: 95px;
+}
+
+.yes_button_div, .no_button_div {
+    text-align: center;
+}
+
+.player_cards {
+    margin-top: 60px;
+}
+
+.playerPlace img, .computer_card img {
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.result{
+    font-size: 28px;
+    height: 40px;
+    text-align: center;
+    display:table
+}
+
+.logo img{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.logo{
+    text-align: center;
+    font-size: 48px;
+    height: 150px;
+}
+
+.main_page_button{
+    color: white;
+    font-family: OpenSans;
+    background-color: #3B3B3B;
+    width: 100%;
+    border-radius: 15px;
+    border: ridge;
+}
+
+.main_page_button:active{
+    background-color: #636363;
+}
+
+.huge_button {
+    height: 45px;
+    font-size: 40px;
+    color: #5E5E5E;
+    background-color: #FFDC9C;
+    border: none;
+}
+
+.yes_button, .no_button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: none;
+}
+
+.yes_button img, .no_button img {
+    width: 35px;
+    height: 35px;
+}
+
+.score {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 90px;
+    font-family: OpenSans;
+    font-weight: bold;
+}
+
+.score_rps {
+    margin-top: 90px;
+    font-family: OpenSans;
+    font-weight: bold;
+    float: right;
+    text-align: right;
+    font-size: 20px
+}
+
+.time {
+    text-align: center;
+    font-size: 80px;
+    font-family: OpenSans;
+}
+
+.statement {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    //font-family: "Comic Sans MS";
+    background-color: #027802;
+    color: white;
+
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    border: 2px dashed white;
+}
+
+.yes_button {
+    background-color: #02E002;
+}
+
+.no_button {
+    background-color: red;
+}
+
+.knopka {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(191,30,46);
+    text-align: center;
+    padding: .7em 1.5em;
+    outline: none;
+    font-size: 17px;
+    border: 0px;
+    height: 60px;
+    width: 150px;
+    font-weight: bold
+}
+.knopka:active { background: rgb(231,24,30); }
+
+.button_left{
+    float:left;
+    width: 49%;
+}
+
+.button_right{
+    float:right;
+    width: 49%
+}
+
+.breakout_canvas{
+    background-color: RGB(226,229,216)
+}
+
+
+canvas { background-color: RGB(226,229,216); } 
+
+
+
+
+
+
+   
+   
